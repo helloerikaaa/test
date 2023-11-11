@@ -1,0 +1,9 @@
+{
+    "algo_name": "VGG16",
+    "model_name": "Detection",
+    "metrics": {
+        "Accuracy": 0.9886786,
+        "AUC": 0.94634,
+        "Loss": 0.12324
+    }
+}
