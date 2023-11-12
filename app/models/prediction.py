@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 
-from app.models.metada import MetadataResult
+from app.models.metadata import MetadataResult
 
 
 class PredictionResult(BaseModel):

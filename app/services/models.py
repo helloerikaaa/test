@@ -31,6 +31,6 @@ class MLModel(object):
         return prediction_result
     
     def predict(self, payload: Payload)-> np.ndarray:
-        _preprocess(payload)
-        _post_process(payload)
-        _predict(payload)
+        self._preprocess(payload)
+        self._post_process(payload)
+        self._predict(payload)

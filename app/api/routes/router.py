@@ -1,4 +1,4 @@
-from fastpai import APIRouter
+from fastapi import APIRouter
 from app.api.routes import predict
 
 api_router = APIRouter()

@@ -3,11 +3,11 @@ from typing import Callable
 from fastapi import FastAPI
 from loguru import logger
 
-from app.services.models import DataModel
+from app.services.models import MLModel
 
 
 def _startup_model(app: FastAPI) -> None:
-    model = DataModel()
+    model = MLModel()
     app.state.model = model
 
 
